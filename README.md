@@ -162,7 +162,7 @@ window.history.pushState(
 
 in the component where the state was updated, which will then change your browser window url to show the new state for your SPA.
 
-The router also takes care of parsing incoming url parameters, which you must then manually pass to your state store (in this case `src/store/store.js`).
+The router also takes care of parsing incoming url parameters, which you must then manually pass to your state store (in this case `src/store/excersise-counter.js`).
 
 ```bash
 window.onload = function() {
